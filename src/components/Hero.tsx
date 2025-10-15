@@ -38,7 +38,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-2xl md:text-3xl text-foreground mb-4 font-semibold">
-            Premium Instagram & TikTok Services
+            boost your Instagram & TikTok Followers - Likes - Views
           </p>
           <h3 className="text-pink-600 text-2xl md:text-3xl font-semibold mb-4 max-w-3xl mx-auto leading-relaxed">
             Boost your social media presence today!
