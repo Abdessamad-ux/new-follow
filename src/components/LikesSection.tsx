@@ -3,8 +3,8 @@ import { Heart, Check } from "lucide-react";
 
 const LikesSection = () => {
   const packages = [
-    { quantity: "1K", price: "$3.99", url: "https://www.paypal.com/ncp/payment/VUMG9BUX7UX8E" },
-    { quantity: "2K", price: "$5.99", url: "https://www.paypal.com/ncp/payment/BGKLHF8GAPM4N" },
+    { quantity: "1K Likes", price: "$3.99", url: "https://www.paypal.com/ncp/payment/VUMG9BUX7UX8E" },
+    { quantity: "2K Likes", price: "$5.99", url: "https://www.paypal.com/ncp/payment/BGKLHF8GAPM4N" },
   ];
 
   return (
