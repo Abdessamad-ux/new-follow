@@ -44,7 +44,7 @@ const Hero = () => {
             Boost your social media presence today!
           </h3>
           <p className="text-2xl md:text-2xl font-small mb-4 max-w-3xl mx-auto leading-relaxed">
-          Whether you're a personal user, influencer, creator, or business - we help you grow your audience with high-quality, real followers who engage with your content.
+          you're a personal user, influencer, creator, or have a business - we help you grow your audience with high-quality followers who engage with your content.
           </p>
         </div>
 
