@@ -5,7 +5,7 @@ const VideoSection = () => {
         <div className="relative rounded-2xl overflow-hidden shadow-elevated aspect-[9/16] md:aspect-video max-w-md md:max-w-full mx-auto">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/qKzJBlCQ5KE"
+            src="https://www.youtube.com/embed/gX6p3VsxzJg"
             title="Social Followers Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
