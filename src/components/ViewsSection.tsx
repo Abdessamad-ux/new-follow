@@ -14,7 +14,7 @@ const ViewsSection = () => {
         <div className="text-center mb-12">
           <Eye className="w-12 h-12 text-primary mx-auto mb-4" />
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Views for Instagram & TikTok
+            Instagram Views
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
             Fast results, real impressions, boost visibility & reach
