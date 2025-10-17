@@ -1,4 +1,4 @@
-import PricingCard from "./PricingCard";
+ import PricingCard from "./PricingCard";
 import { Instagram } from "lucide-react";
 
 const FollowersSection = () => {
@@ -20,10 +20,10 @@ const FollowersSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Followers for Instagram & TikTok
+            Instagram Followers
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Grow your audience with authentic, engaged followers who interact with your content
+            Grow your audience with authentic, engaged followers.
           </p>
         </div>
 
