@@ -4,7 +4,7 @@ const Hero = () => {
   const trustBadges = [
     { icon: Shield, text: "100% Safe & Secure" },
     { icon: Zap, text: "Instant Delivery" },
-    { icon: Users, text: "50,000+ Happy Customers" },
+    { icon: Users, text: "2,000+ Happy Customers" },
     { icon: Star, text: "4.9/5 Rating" },
   ];
 
@@ -34,17 +34,17 @@ const Hero = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[hsl(262,83%,58%)] via-[hsl(320,85%,60%)] to-[hsl(25,95%,65%)]">
-              Social Followers
+              Instagram Followers
             </span>
           </h1>
           <p className="text-2xl md:text-3xl text-foreground mb-4 font-semibold">
-            boost your Instagram & TikTok Followers - Likes - Views
+            boost your Instagram Followers - Likes - Views
           </p>
           <h3 className="text-pink-600 text-2xl md:text-3xl font-semibold mb-4 max-w-3xl mx-auto leading-relaxed">
             Boost your social media presence today!
           </h3>
           <p className="text-2xl md:text-2xl font-small mb-4 max-w-3xl mx-auto leading-relaxed">
-          you're a personal user, influencer, creator, or have a business - we help you grow your audience with high-quality followers who engage with your content.
+          If you're a personal user, influencer, creator, or have a business - we help you grow your audience with high-quality followers who engage with your content.
           </p>
         </div>
 
