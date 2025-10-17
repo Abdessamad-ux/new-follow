@@ -13,7 +13,7 @@ const LikesSection = () => {
         <div className="text-center mb-12">
           <Heart className="w-12 h-12 text-primary mx-auto mb-4" />
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Likes for Instagram & TikTok
+            Likes for Instagram
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Boost your engagement rate instantly with real, high-quality likes!
