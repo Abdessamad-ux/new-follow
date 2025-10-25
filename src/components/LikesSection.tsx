@@ -51,7 +51,7 @@ const LikesSection = () => {
               </ul>
 
               <Button variant="accent" size="lg" className="w-full font-semibold" onClick={() => window.open(pkg.url, "_blank") }>
-                Get Likes Now
+                Buy Likes
               </Button>
             </div>
           ))}
