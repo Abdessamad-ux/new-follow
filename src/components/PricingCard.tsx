@@ -64,7 +64,7 @@ const PricingCard = ({ quantity, price, popular = false, url }: PricingCardProps
           }
         }}
       >
-        Get Started Now
+        Buy Now
       </Button>
     </div>
   );
