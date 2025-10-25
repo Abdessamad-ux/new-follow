@@ -3,10 +3,10 @@ import { Instagram } from "lucide-react";
 
 const FollowersSection = () => {
   const packages = [
-    { quantity: "500 Followers", price: "$2.99", url: "https://www.paypal.com/ncp/payment/EW2NDVRHDSLKY" },
-    { quantity: "1k Followers", price: "$4.99", url: "https://www.paypal.com/ncp/payment/YXZ7ZE73WSCJJ" },
-    { quantity: "2K Followers", price: "$7.99", popular: true, url: "https://www.paypal.com/ncp/payment/HPXGEXFUPSST6" },
-    { quantity: "5K Followers", price: "$19.99", url: "https://www.paypal.com/ncp/payment/AZVPH6J32PHXS" },
+    { quantity: "500 Followers", price: "£2.99", url: "https://www.paypal.com/ncp/payment/EW2NDVRHDSLKY" },
+    { quantity: "1k Followers", price: "£4.99", url: "https://www.paypal.com/ncp/payment/YXZ7ZE73WSCJJ" },
+    { quantity: "2K Followers", price: "£7.99", popular: true, url: "https://www.paypal.com/ncp/payment/HPXGEXFUPSST6" },
+    { quantity: "5K Followers", price: "£19.99", url: "https://www.paypal.com/ncp/payment/AZVPH6J32PHXS" },
   ];
 
   return (
