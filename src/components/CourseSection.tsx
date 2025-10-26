@@ -96,16 +96,18 @@ const CourseSection = () => {
     }
   ];
 
+  // ✅ UPDATED EBOOK IMAGES
   const ebookPages = [
-    { id: 1, alt: "Ebook page 1" },
-    { id: 2, alt: "Ebook page 2" },
-    { id: 3, alt: "Ebook page 3" },
-    { id: 4, alt: "Ebook page 4" },
-    { id: 5, alt: "Ebook page 5" },
-    { id: 6, alt: "Ebook page 6" },
-    { id: 7, alt: "Ebook page 7" },
-    { id: 8, alt: "Ebook page 8" },
-    { id: 9, alt: "Ebook page 9" }
+    {
+      id: 1,
+      src: "https://i.postimg.cc/vZLPPmFt/demo-2.png",
+      alt: "Ebook cover preview"
+    },
+    {
+      id: 2,
+      src: "https://i.postimg.cc/mDqVczMp/Screenshot-2025-10-25-142728.png",
+      alt: "Ebook content preview"
+    }
   ];
 
   return (
@@ -163,7 +165,7 @@ const CourseSection = () => {
           <p className="text-lg text-muted-foreground mb-4">Live case study for the Reselling Online Business</p>
         </div>
 
-        {/* Carousel Section */}
+        {/* ✅ Carousel Section (Updated to show images) */}
         <div className="mb-16 max-w-5xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-center mb-4">
             Swipe → to see what's inside the eBook
@@ -177,11 +179,12 @@ const CourseSection = () => {
               {ebookPages.map((page) => (
                 <CarouselItem key={page.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <Card className="aspect-[3/4] flex items-center justify-center bg-muted">
-                      <div className="text-center p-8">
-                        <p className="text-lg font-semibold">{page.alt}</p>
-                        <p className="text-sm text-muted-foreground mt-2">Preview content here</p>
-                      </div>
+                    <Card className="aspect-[3/4] flex items-center justify-center bg-muted overflow-hidden">
+                      <img
+                        src={page.src}
+                        alt={page.alt}
+                        className="w-full h-full object-cover rounded-lg"
+                      />
                     </Card>
                   </div>
                 </CarouselItem>
