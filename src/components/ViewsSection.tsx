@@ -3,9 +3,9 @@ import { Eye } from "lucide-react";
 
 const ViewsSection = () => {
   const packages = [
-    { quantity: "1K Views", price: "£5.99", url: "https://www.paypal.com/ncp/payment/FP7SNWF4BGMDE" },
-    { quantity: "3K Views", price: "£13.99", popular: true, url: "https://www.paypal.com/ncp/payment/4JFQ59PEWQCLY" },
-    { quantity: "5K Views", price: "£19.99", url: "https://www.paypal.com/ncp/payment/JMDL6WF497VPS" },
+    { quantity: "1K Views", price: "$5.99", url: "https://www.paypal.com/ncp/payment/FP7SNWF4BGMDE" },
+    { quantity: "3K Views", price: "$13.99", popular: true, url: "https://www.paypal.com/ncp/payment/4JFQ59PEWQCLY" },
+    { quantity: "5K Views", price: "$19.99", url: "https://www.paypal.com/ncp/payment/JMDL6WF497VPS" },
   ];
 
   return (
